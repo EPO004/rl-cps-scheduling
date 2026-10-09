@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Reproducible datasets and experiment artifacts
+data/generated/
+artifacts/*
+!artifacts/.gitkeep
+outputs/
+results/
+logs/
+checkpoints/
+models/
+wandb/
+*.ckpt
+*.log
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Large archives and local documents
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.pdf
+*.pptx
+*.docx
+*.xlsx
